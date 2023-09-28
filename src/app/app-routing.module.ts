@@ -7,9 +7,4 @@ const routes: Routes = [];
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule {
-
-  public funA(){
-    console.log("testing !!!");
-  }
- }
+export class AppRoutingModule { }
