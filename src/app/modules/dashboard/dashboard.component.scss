@@ -1,0 +1,136 @@
+.section-title {
+    margin-bottom: 60px;
+}
+
+.section-title h2 {
+    font-size: 40px;
+    color: var(--black-900);
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 0;
+}
+
+.section-title h2 span {
+    color: var(--main-color);
+}
+
+/*-----------------
+ Home Section
+-------------------*/
+.section-home {
+    min-height: 400px;
+    padding: 160px 0 30px 0;
+    background-color: var(--main-to-dark-color);
+    position: relative;
+    z-index: 1;
+    overflow-x: hidden;
+}
+
+.section-home .container {
+    text-align: center;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+
+.home-text h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0 0 15px;
+    color: #ffffff;
+    user-select: none;
+    text-shadow: -7px 8px 6px rgba(0, 0, 0, 0.697);
+}
+
+.home-text h2 {
+    font-family: "Carter One", cursive;
+    font-size: 22px;
+    color: var(--color-2);
+}
+
+.search-box {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 100%;
+    max-width: 490px;
+    background-color: var(--color-4);
+    border-radius: 60px;
+    /* height: 60px; */
+}
+
+.search-box input {
+    flex: 1;
+    background: transparent;
+    font-weight: 600;
+    color: #272832;
+    padding: 10px 30px;
+    font-size: 20px;
+    border: 0;
+    outline: none;
+}
+
+.search-box #search_btn {
+    border: 0;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    background: var(--main-to-dark-color);
+    cursor: pointer;
+    margin: 6px;
+    color: white;
+}
+
+.search-box #search_btn fa-icon {
+    font-size: 16px;
+}
+
+.wave-svg path {
+    fill: var(--main-to-dark-color);
+}
+
+
+/*----------------------
+ Responsive Section
+------------------------*/
+@media (max-width: 767px) {
+    .home-text h1 {
+        font-size: 60px;
+    }
+
+    .home-text h2 {
+        font-size: 22px;
+    }
+
+    .search-box {
+        max-width: 490px;
+    }
+
+    .home-text a {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 575px) {
+    .home-text h1 {
+        font-size: 40px;
+    }
+
+    .home-text h2 {
+        font-size: 17px;
+    }
+
+    .search-box {
+        max-width: 400px;
+    }
+
+    .search-box input {
+        font-size: 17px;
+    }
+
+    .home-text a {
+        font-size: 14px;
+    }
+}
