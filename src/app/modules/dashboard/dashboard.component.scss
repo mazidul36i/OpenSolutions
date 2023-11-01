@@ -19,8 +19,8 @@
  Home Section
 -------------------*/
 .section-home {
-    min-height: 400px;
-    padding: 160px 0 30px 0;
+    min-height: 300px;
+    padding: 100px 0 30px 0;
     background-color: var(--main-to-dark-color);
     position: relative;
     z-index: 1;
@@ -85,6 +85,16 @@
 
 .search-box #search_btn fa-icon {
     font-size: 16px;
+}
+
+.home-text .about-us {
+    margin-top: 30px;
+}
+
+.home-text .about-us>a {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
 }
 
 .wave-svg path {
