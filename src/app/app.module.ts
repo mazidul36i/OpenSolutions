@@ -7,12 +7,16 @@ import { AppComponent } from './app.component';
 import { DashboardComponent } from './modules/dashboard/dashboard.component';
 import { ThemeComponent } from './modules/theme/theme.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { AboutusComponent } from './modules/aboutus/aboutus.component';
+import { NavbarComponent } from './modules/navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
-    ThemeComponent
+    ThemeComponent,
+    AboutusComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
