@@ -1,11 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutusComponent } from './modules/aboutus/aboutus.component';
+import { DashboardComponent } from './modules/dashboard/dashboard.component';
 
 const routes: Routes = [
   {
-    path: 'aboutus',
+    path: 'about-us',
     component: AboutusComponent
+  },
+  {
+    path: '',
+    component: DashboardComponent
   }
 ];
 
